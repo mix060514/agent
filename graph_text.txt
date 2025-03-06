@@ -1,0 +1,16 @@
+Graph Structure:
+
+Nodes:
+- __start__
+- Agent
+- tool_browser
+- final_answer
+- __end__
+
+Edges:
+- __start__ -> Agent (direct)
+- final_answer -> __end__ (direct)
+- tool_browser -> __end__ (direct)
+- Agent -> tool_browser (conditional)
+- Agent -> final_answer (conditional)
+- Agent -> __end__ (conditional)
